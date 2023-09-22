@@ -1,0 +1,97 @@
+/* dashboard.css */
+
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Set the background color to your desired image */
+  margin: 0;
+}
+
+/* Topbar styles */
+.topbar {
+  background-color: transparent; /* Make the top bar transparent */
+  color: rgba(255, 255, 255, 0.8); /* Set text color with transparency */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: none; /* Remove box shadow */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  left: 40%;
+  top: 3%;
+
+}
+
+.topbar-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8); /* Set link text color with transparency */
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  padding: 10px 20px;
+  background-color: transparent; /* Make the link background transparent */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.topbar-link:hover {
+  background-color: rgba(231, 76, 60, 0.6); /* Add transparency on hover */
+}
+
+/* Sidebar styles */
+.sidebar {
+  /* Make the sidebar transparent */
+  color: rgba(255, 255, 255, 0.8); /* Set text color with transparency */
+  padding-top: 20px;
+  width: 250px;
+  min-height: 100vh;
+  box-shadow: none; /* Remove box shadow */
+  position: absolute; 
+  left: 1%;
+  top: 5%;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8); /* Set link text color with transparency */
+  padding: 10px 20px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-link:hover {
+  background-color: rgba(44, 62, 80, 0.6); /* Add transparency on hover */
+}
+
+/* Content styles */
+.content {
+  background-color:transparent; 
+  color: beige;
+  position: absolute;
+  font-size: 32px;
+  left: 34%;
+
+  margin-top: -60px;
+}
+
+/* Premium look */
+.dashboard-container {
+  display: flex;
+}
